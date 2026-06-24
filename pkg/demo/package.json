@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun build --compile --production --target bun --outfile dist/server src/index.ts && bun run dist/server"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "rift": "workspaces:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}

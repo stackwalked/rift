@@ -1,0 +1,13 @@
+{
+  "name": "lib",
+  "version": "1.0.50",
+  "scripts": {
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
