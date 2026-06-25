@@ -1,10 +1,13 @@
 {
-  "name": "lib",
+  "name": "rift",
   "version": "1.0.50",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "elysia": "latest"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./env": "./src/env/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
